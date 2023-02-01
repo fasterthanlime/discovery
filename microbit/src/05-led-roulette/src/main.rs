@@ -3,8 +3,8 @@
 #![no_std]
 
 use cortex_m_rt::entry;
-use panic_halt as _;
 use microbit as _;
+use panic_halt as _;
 
 #[entry]
 fn main() -> ! {
